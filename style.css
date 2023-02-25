@@ -1,0 +1,242 @@
+*{ box-sizing: border-box;
+}
+@font-face {
+    font-family:'Montserrat';
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:'Dela Gothic One';
+    src: url(DelaGothicOne-Regular.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    width: 100%;
+    height: 84px;
+    background-color:#f6f5f4;
+    border-bottom: 1px solid lightgray; 
+    padding-top: 30px;
+}
+.navigation-1{
+    width: 1180px;
+    margin: 0 auto;
+    align-items: center;
+    margin: inline;
+}
+.brand{
+    font-size: 21px;
+    color: black;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    margin: 15px;
+    color: #757575;
+    font-family: 'Montserrat';
+}
+.login{
+    float: right;
+    color: black !important;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.signup{
+    float: right;
+    color: white;
+    background-color: #2b788b;
+    border-radius: 12px;
+    height:36px ;
+    width:90px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+.dropdown_menu{
+    color: black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 14px;
+    position: absolute;
+    width: 215px;
+    box-shadow: 0px 343.472px 343.472px rgba(52, 41, 39, 0.08), 0px 183.185px 183.185px rgba(52, 41, 39, 0.12), 0px 91.5925px 91.5925px rgba(52, 41, 39, 0.04), 0px 68.6944px 68.6944px rgba(52, 41, 39, 0.04), 0px 11.4491px 68.6944px rgba(52, 41, 39, 0.04), 0px 11.4491px 11.4491px rgba(52, 41, 39, 0.04);
+    left: 480px;
+    top:60px;
+    display:none;
+}
+.dropdown:hover .dropdown_menu{
+    display: block !important;
+}
+.container{
+    display: flex;
+    padding-top: 70px;
+    height: 740px;
+    width: 100%;
+    background: #F6F5F4;
+}
+.left{
+    margin-left: 20%;
+    width: 531px;
+}
+.left span{
+    width: 221px;
+    height: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2B788B;
+}
+.left h1{
+    width: 531px;
+    height: 201px;
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 120%;
+    color: #000000;
+    margin-top: 20px;
+}
+.left p{
+    width: 396.89px;
+    height: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.left button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 22px;
+    gap: 19px;
+    width: 165px;
+    height: 44px;
+    background: #C3DCE3;
+    border-radius: 100px;
+    border: none;
+    margin-left: 0px;
+    margin-top: 40px;
+}
+.files{    
+    display: flex;
+    height:62px;
+    margin-top: 48.78px;
+}
+.file-1{
+    width: 163px;
+
+}
+.file-1 img{
+    height: 30px;
+    width: 24px;
+    display: inline-block;
+    position:absolute;
+}
+.file-1 h6{
+    width: 129px;
+    height: 40px;
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    margin:0;
+    display: inline-block;
+    margin-left: 34px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.file-1 p{
+    
+font-family: 'Montserrat';
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: -0.04em;
+text-align: left;
+color: #585858;
+width: 112px;
+height: 22px;
+font-style: normal;
+letter-spacing: -0.04em;
+display: block;
+margin:0;
+margin-top:3px;
+
+}
+.between{
+    width: 0px;
+    height: 48.78px;
+    border: 1.21942px solid #E0E0E0;
+    margin-left: 50px;
+}
+
+.file-2{
+    margin-left: 50px;
+    width: 92px;
+}
+.file-2 img{
+    height: 32px;
+    width: 20px;
+    display: inline-block;
+    position:absolute;
+}
+.file-2 h6{
+    width: 56px;
+    height: 40px;
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    display: inline-block;
+    margin:0;
+    margin-left: 34px; 
+    letter-spacing: -0.02em; 
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.file-2 p{
+    width: 92px;
+    height: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    margin:0;
+    margin-top:3px;  
+    letter-spacing: -0.04em;  
+    color: #585858;  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.right{
+    height: 100%;
+    width: 50%;
+    margin:0; 
+}
+.right img{
+    position: absolute;
+    width: 614px;
+    height: 510px;    
+    margin-left: 33px;
+}
